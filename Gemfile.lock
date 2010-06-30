@@ -7,7 +7,10 @@ GEM
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.0.0)
-    highline (1.5.2)
+    highline (1.5.1)
+    hpricot (0.8.2)
+    hpricot (0.8.2-java)
+    hpricot (0.8.2-x86-mswin32)
     net-scp (1.0.2)
       net-ssh (>= 1.99.1)
     net-sftp (2.0.4)
@@ -15,13 +18,10 @@ GEM
     net-ssh (2.0.23)
     net-ssh-gateway (1.0.1)
       net-ssh (>= 1.99.1)
-    nokogiri (1.4.2)
-    nokogiri (1.4.2-java)
-      weakling (>= 0.0.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   capistrano
-  nokogiri (>= 1.4.0)
+  hpricot
